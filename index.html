@@ -1,1 +1,354 @@
-Hello World
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web Profil - Fauzan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Google Font (Kustomisasi Font) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap" rel="stylesheet">
+    <style>
+        .img{
+            width: 100%;
+            transition: 1s;
+        }
+        .img:hover{
+            transform: scale(1.1);
+            box-shadow: 2px 2px 5px rgb(55, 55, 55);
+            border-radius: 3%;
+            transition: 1s;
+        }
+    </style>
+
+</head>
+
+<body class="bg-light" style="font-family: Nunito, sans-serif;">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow-sm bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <b>@Fzn</b>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item ps-3">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item ps-3">
+                        <a class="nav-link" href="#pendidikan">Riwayat Pendidikan</a>
+                    </li>
+                    <li class="nav-item ps-3">
+                        <a class="nav-link" href="#keahlian">Keahlian</a>
+                    </li>
+                    <li class="nav-item ps-3">
+                        <a class="nav-link" href="#kontak">Hubungi Saya</a>
+                    </li>
+                </ul>
+
+                <div class="d-flex">
+                    <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalKontak">
+                        <b>Hubungi Saya</b>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="pt-4"></div>
+
+    <section class="mt-5 pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mb-5 mb-md-0">
+                    <img class = "img" src="img/fauzan.jpeg" alt="fauzan" class="img-fluid rounded-4 shadow-lg">
+                </div>
+                <div class="col-md-9 mt-md-5">
+                    <div class="ms-md-4 pt-md-5">
+                        <div class=" text-md-start text-center">
+                            <h1><b>Fauzan</b> </h1>
+                            <h5 class="text-secondary">
+                                <b>Software Engineer</b> at
+                                <a href="Google.com" class="text-decoration-none text-primary-emphasis" target="_blank">Google</a>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pendidikan" class="pt-5">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <h3 class="mb-3">Riwayat Pendidikan</h3>
+                        
+                        <div class="col-md-12 mb-3">
+                            <div class="card shadow-sm border-0 rounded-4">
+                                <div class="card-body">
+                                    <span class="badge bg-primary">2023 - Sekarang</span>
+                                    <h5 class="mt-2 mb-0">Politeknik Negeri Banyuwangi</h5>
+                                    <p class="text-body-tertiary mb-0">Bisnis dan Informatika | IPK. 3.5</p>
+
+                                    <div class="mt-2">
+                                        <p class="mb-1">Mata Kuliah yang saya ikuti : </p>
+                                        <span class="badge text-bg-light">Database</span>
+                                        <span class="badge text-bg-light">Programming object oriented</span>
+                                        <span class="badge text-bg-light">Web basic</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                            <div class="card shadow-sm border-0 rounded-4">
+                                <div class="card-body">
+                                    <span class="badge bg-primary">2020 - 2023</span>
+                                    <h5 class="mt-2 mb-0">SMKN 1 Banyuwangi</h5> 
+                                    <p class="text-body-tertiary mb-0">Rekayasa Perangkat Lunak </p>
+                                    <div class="mt-2">
+                                        <p class="mb-1">Pelajaran yang saya ikuti : </p>
+                                        <span class="badge text-bg-light">Pemrograman berbasis mobile</span>
+                                        <span class="badge text-bg-light"></span>
+                                        <span class="badge text-bg-light">Algoritma Struktur Data</span>
+                                        <span class="badge text-bg-light">Bahasa Inggris</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 mt-5 mt-md-0">
+                    <div class="row">
+                        <h3 class="mb-3">Pengalaman</h3>
+                        <!-- Contoh: Pengalaman Kerja, Pengalaman Sukarelawan, Magang, Organisasi, dll. -->
+
+                        <div class="col-md-12 mb-3">
+                            <div class="card shadow-sm border-0 rounded-4">
+                                <div class="card-body">
+                                    <span class="badge bg-secondary">2022 - 2023</span>
+                                    <h5 class="mt-2 mb-0"><b>Digimarcom</b></h5>
+                                    <p class="text-body-tertiary mb-0"></p>
+                                    <hr class="mt-2 mb-3 text-body-tertiary">
+
+                                    <div class="mt-2">
+                                        <ul class="mb-0">
+                                            <li>Magang</li>
+                                            <li>mempelajari HTML, CSS, JS</li>
+                                            <li>Bekerjasama dengan Tim untuk membuat website</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- KEAHLIAN DAN KURSUS -->
+    <section class="my-5 py-5 bg-white" id="keahlian">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="mb-3">Keahlian</h3>
+                    <!-- Keahlian atau skill yang kamu bisa atau kuasai -->
+
+                    <a class="btn btn-primary text-bg-light text-start mb-2 me-1">
+                        Web Development (HTML, CSS, PHP, Laravel)
+                    </a>
+                    <a class="btn btn-primary text-bg-light text-start mb-2 me-1">
+                        Design UI di Figma
+                    </a>
+                    <a class="btn btn-primary text-bg-light text-start mb-2 me-1">
+                        Database
+                    </a>
+                    <a class="btn btn-primary text-bg-light text-start mb-2 me-1">
+                        Microsoft Office (Word, Excel, Powerpoint)
+                    </a>
+                </div>
+                <div class="col-md-6 mt-5 mt-md-0">
+                    <div class="row">
+                        <h3 class="mb-3">Kursus | Webinar | Seminar</h3>
+                        <div class="col-md-12 mb-3">
+                            <div class="card shadow-sm border-0 rounded-4">
+                                <div class="card-body">
+                                    <h6 class="mt-0 mb-0">Fundamental Membuat Game 2D</h6>
+                                    <p class="text-body-tertiary mb-0">Coding Studio</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                            <div class="card shadow-sm border-0 rounded-4">
+                                <div class="card-body">
+                                    <h6 class="mt-0 mb-0">Fundamental Front-End Web Development</h6>
+                                    <p class="text-body-tertiary mb-0">Coding Studio</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                            <div class="card shadow-sm border-0 rounded-4">
+                                <div class="card-body">
+                                    <h6 class="mt-0 mb-0">Belajar Dasar Pemrograman Web</h6>
+                                    <p class="text-body-tertiary mb-0">Dicoding</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 mt-5 mt-md-3">
+                    <h3 class="mb-3">Ketertarikan</h3>
+                    <!-- Ketertarikan terkait industri yang kamu tuju seperti profesi, bidang, atau yang lain -->
+
+                    <a class="btn btn-success text-bg-light text-start mb-2 me-1">
+                        Software Development
+                    </a>
+                    <a class="btn btn-success text-bg-light text-start mb-2 me-1">
+                        Product Management
+                    </a>
+                    <a class="btn btn-success text-bg-light text-start mb-2 me-1">
+                        UI/UX Design
+                    </a>
+                    <a class="btn btn-success text-bg-light text-start mb-2 me-1">
+                        Startup Bussiness
+                    </a>
+                    <a class="btn btn-success text-bg-light text-start mb-2 me-1">
+                        Leadership
+                    </a>
+                    <a class="btn btn-success text-bg-light text-start mb-2 me-1">
+                        Teaching
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END OF KEAHLIAN DAN KURSUS -->
+
+    <section id="kontak">
+        <div class="container py-md-5">
+            <div class="row">
+                <div class="col-md-7 pt-5 text-md-start text-center">
+                    <h1><b>Tertarik dengan Saya?</b></h1>
+                    <p>Hubungi saya jika ada hal yang perlu didiskusikan lebih lanjut</p>
+
+                    <div class="mb-3">
+                        <a class="btn btn-primary me-1" data-bs-toggle="modal" data-bs-target="#modalKontak">
+                            <b>Hubungi Saya</b>
+                        </a>
+                        <a href="img/cv.pdf"
+                            class="btn btn-outline-primary" target="_blank">
+                            <b>Download CV</b>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-5 text-start">
+                    <!-- Ilustrasi lainnya, cek di https://storyset.com/ (Gratis!) -->
+                    <img src="img/kontak.jpeg" alt="Ilustrasi" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="text-white mb-0">Copyright &copy; 2024 - <b>Fauzan</b> </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END OF FOOTER -->
+
+    <!-- NOTE!
+    LEBIH BAIK JIKA ADA : 
+    - Kamu bisa tambahkan Portofolio terkait project atau hal yang telah kamu buat -->
+
+    <!-- MODAL KONTAK -->
+    <div class="modal fade" id="modalKontak" tabindex="-1" aria-labelledby="modalKontakLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modalKontakLabel">Hubungi Saya</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="card bg-light border-success-subtle mb-3 rounded-4">
+                        <div class="card-body">
+                            <h5 class="mb-0">No. HP / Whatsapp</h5>
+                            <p class="mb-0">
+                                <b>+62 881-0269-33377</b>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card bg-light border-primary-subtle mb-3 rounded-4">
+                        <div class="card-body">
+                            <h5 class="mb-0">Linkedin</h5>
+                            <p class="mb-0">
+                                <a href="linkedin.com/in/fauzan/" target="_blank">
+                                    linkedin.com/in/<b>fauzan</b>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card bg-light border-dark mb-3 rounded-4">
+                        <div class="card-body">
+                            <h5 class="mb-0">Email</h5>
+                            <p class="mb-0">
+                                <b>ojangpetak@gmail.com</b>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card bg-light border-danger-subtle mb-3 rounded-4">
+                        <div class="card-body">
+                            <h5 class="mb-0">Instagram</h5>
+                            <p class="mb-0">
+                                <b><a href="https://www.instagram.com/fauzan.dz/" target="_blank">@fauzan.dz</a></b>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Kode Javascript agar menu pada navbar otomatis tertutup jika di klik -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var navbarNav = document.getElementById('navbarSupportedContent');
+            var navLinks = navbarNav.querySelectorAll('.nav-link');
+            var bsCollapse = new bootstrap.Collapse(navbarNav, {
+                toggle: false
+            });
+
+            navLinks.forEach(function (link) {
+                link.addEventListener('click', function () {
+                    if (navbarNav.classList.contains('show')) {
+                        bsCollapse.hide();
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
